@@ -23,20 +23,20 @@
                                 <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mla-KZ-qWL">
-                                <rect key="frame" x="44" y="125" width="113" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="show message 1"/>
-                                <connections>
-                                    <action selector="messageButton1Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jJs-e4-QhR"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2s-48-M81">
-                                <rect key="frame" x="218" y="125" width="115" height="30"/>
+                                <rect key="frame" x="227" y="125" width="115" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="show message 2"/>
                                 <connections>
                                     <action selector="messageButton2Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yYu-1a-vqp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mla-KZ-qWL">
+                                <rect key="frame" x="33" y="124" width="113" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="show message 1"/>
+                                <connections>
+                                    <action selector="messageButton1Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jJs-e4-QhR"/>
                                 </connections>
                             </button>
                         </subviews>
